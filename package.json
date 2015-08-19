@@ -1,0 +1,32 @@
+{
+  "name": "color-converter",
+  "version": "0.1.0",
+  "description": "A sample RGB to HEX color converter to showcase the node.js/gulp echo system on stackato",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "color",
+    "converter",
+    "sample",
+    "stackato"
+  ],
+  "author": "Steven \"Alphanerd80\" Mustafa",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "3.2.0",
+    "mocha": "2.2.5",
+    "gulp": "3.9.0",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "request": "2.60.0"
+  }
+}
